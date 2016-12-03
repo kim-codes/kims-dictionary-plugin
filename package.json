@@ -1,0 +1,17 @@
+{
+  "name": "kims-dictionary-plugin",
+  "main": "./lib/kims-dictionary-plugin",
+  "version": "0.0.0",
+  "description": "A short description of your package",
+  "activationCommands": {
+    "atom-workspace": "kims-dictionary-plugin:toggle"
+  },
+  "repository": "https://github.com/atom/kims-dictionary-plugin.git",
+  "bug": "https://github.com/atom/kims-dictionary-plugin/issues",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  }
+}

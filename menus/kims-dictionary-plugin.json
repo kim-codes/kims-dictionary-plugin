@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle kims-dictionary-plugin",
+        "command": "kims-dictionary-plugin:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "kims-dictionary-plugin",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "kims-dictionary-plugin:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
